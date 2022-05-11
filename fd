@@ -10,7 +10,7 @@
             P=15000;
             r = 0.05;
             t=2;
-            n=4;
+            n=100;
             temp=(1+r/n);
             A=P*Math.pow(temp,(n*t));
             System.out.println("Fixed deposit: "+ Math.round(A));
